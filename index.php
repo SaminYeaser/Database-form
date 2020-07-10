@@ -233,5 +233,6 @@ if(isset($_POST['submit'])){
     </div>
 </div>
 </form>
+<script src="script.js"></script>
 </body>
 </html>
