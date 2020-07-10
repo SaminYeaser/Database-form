@@ -44,6 +44,23 @@ form .container{
     margin: 0 auto;
     transform: translateZ(0);
 }
+.ui-input {
+    position: relative;
+    padding: 0;
+    border: 0;
+}
+
+.ui-input input {
+    font-family: $base-font-family;
+    border: 0;
+    background: none;
+    padding: 16px 0 16px 0;
+    font-size: 24px;
+    outline: 0;
+    width: 100%;
+    tap-highlight-color: rgba(0,0,0,0);
+    touch-callout: none;
+}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
