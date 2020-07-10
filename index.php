@@ -61,7 +61,7 @@ if(isset($_POST['submit'])){
         </div>
     </div>
 </div>
-<form action="" method="post">
+<form action="" method="post" class="ui-input">
 <div class="form">
     <div class="container">
         <div class="first">
