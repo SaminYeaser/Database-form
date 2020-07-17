@@ -61,13 +61,13 @@ if(isset($_POST['submit'])){
         </div>
     </div>
 </div>
-<form action="" method="post" class="ui-input">
+<form action="" method="post" class="">
 <div class="form">
     <div class="container">
         <div class="first">
             <div class="row">
-                <div class="col-6">
-                    <input name="securityNumber" type="number" placeholder="Social Security Number" style="width: 60%" required>
+                <div class="col-6 security">
+                    <input name="securityNumber" type="number" placeholder="Security Number" >
                 </div>
                 <div class="col-6">
                     <input name="date" type='date' placeholder="Date" required>
@@ -228,7 +228,7 @@ if(isset($_POST['submit'])){
             </div>
         </div>
         <div class="button">
-            <button value="Submit" name="submit" class="btn-danger">Submit</button>
+            <button value="Submit" name="submit" class="btn-danger btn d-flex justify-content-center">Submit</button>
         </div>
     </div>
 </div>
